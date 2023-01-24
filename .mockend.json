@@ -4,7 +4,12 @@
       "items": 10
     },
     
-    
+    "title": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      }
+    },
     "body": {
       "loremParagraphs": {
         "minLength": 10,
@@ -23,16 +28,79 @@
         "max": 1000
       }
     },
-    "createdAt": {
+    "date": {
       "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
+        "min": "2023-01-24T00:00:00Z",
+        "max": "2023-01-24T23:59:59Z"
       }
     },
-    "comments": {
-      "hasMany": "Comment"
+    "timeSlot":{
+      "Time_10": {
+       "Table_1" : {
+          "Chair_1":"boolean":{},
+          "Chair_2":"boolean":{},
+          "Chair_3":"boolean":{},
+          "Chair_4":"boolean":{}
+        },
+      "Table_2": {
+          "Chair_1":"boolean":{},
+          "Chair_2":"boolean":{},
+          "Chair_3":"boolean":{},
+          "Chair_4":"boolean":{}
+        },
+       "Table_3": {
+         "Chair_1":"boolean":{},
+          "Chair_2":"boolean":{},
+          "Chair_3":"boolean":{},
+          "Chair_4":"boolean":{},
+          "Chair_5":"boolean":{},
+          "Chair_6":"boolean":{}
+        },
+      "Table_4": {
+          "Chair_1":"boolean":{},
+          "Chair_2":"boolean":{},
+          "Chair_3":"boolean":{},
+          "Chair_4":"boolean":{}
+        },
+      "Table_5": {
+         "Chair_1":"boolean":{},
+          "Chair_2":"boolean":{},
+          "Chair_3":"boolean":{},
+          "Chair_4":"boolean":{}
+        },
+     "Table_6": {
+          "Chair_1":"boolean":{},
+          "Chair_2":"boolean":{},
+          "Chair_3":"boolean":{},
+          "Chair_4":"boolean":{},
+          "Chair_5":"boolean":{},
+          "Chair_6":"boolean":{}
+        },
+     "Table_7": {
+         "Chair_1":"boolean":{},
+          "Chair_2": "boolean":{},
+          "Chair_3":"boolean":{},
+          "Chair_4":"boolean":{}
+        },
+     "Table_8": {
+          "Chair_1":"boolean":{},
+          "Chair_2":"boolean":{},
+          "Chair_3":"boolean":{},
+          "Chair_4":"boolean":{}
+        },
+    "Table_9": {
+         "Chair_1":"boolean":{},
+          "Chair_2":"boolean":{},
+          "Chair_3":"boolean":{},
+          "Chair_4":"boolean":{},
+          "Chair_5":"boolean":{},
+          "Chair_6":"boolean":{}
+        }
+      } 
     }
   },
+
+
   "Comment": {
     "_": {
       "items": 25

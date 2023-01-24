@@ -3,7 +3,7 @@
     "_": {
       "items": 10
     },
-
+    
     "title": {
       "loremWords": {
         "minLength": 5,
@@ -34,16 +34,16 @@
         "max": "2023-01-24T23:59:59Z"
       }
     },
-    "timeSlot": {
-      "time10": {
-        "table1": {
-          "chair1": {
-            "boolean": {}
+    "timeSlot":{
+      "object":{
+          "time10":{
+            "boolean":{}
           }
-        }
       }
+  
     }
   },
+
 
   "Comment": {
     "_": {

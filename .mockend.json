@@ -35,12 +35,10 @@
       }
     },
     "timeSlot":{
-      "object":{
-          "time10":{
-            "boolean":{}
-          }
+      "int": {
+        "min": 10,
+        "max": 21
       }
-  
     }
   },
 

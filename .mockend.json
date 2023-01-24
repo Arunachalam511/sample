@@ -3,7 +3,7 @@
     "_": {
       "items": 10
     },
-    
+
     "title": {
       "loremWords": {
         "minLength": 5,
@@ -34,72 +34,16 @@
         "max": "2023-01-24T23:59:59Z"
       }
     },
-    "timeSlot":{
-      "Time_10": {
-       "Table_1" : {
-          "Chair_1":"boolean":{},
-          "Chair_2":"boolean":{},
-          "Chair_3":"boolean":{},
-          "Chair_4":"boolean":{}
-        },
-      "Table_2": {
-          "Chair_1":"boolean":{},
-          "Chair_2":"boolean":{},
-          "Chair_3":"boolean":{},
-          "Chair_4":"boolean":{}
-        },
-       "Table_3": {
-         "Chair_1":"boolean":{},
-          "Chair_2":"boolean":{},
-          "Chair_3":"boolean":{},
-          "Chair_4":"boolean":{},
-          "Chair_5":"boolean":{},
-          "Chair_6":"boolean":{}
-        },
-      "Table_4": {
-          "Chair_1":"boolean":{},
-          "Chair_2":"boolean":{},
-          "Chair_3":"boolean":{},
-          "Chair_4":"boolean":{}
-        },
-      "Table_5": {
-         "Chair_1":"boolean":{},
-          "Chair_2":"boolean":{},
-          "Chair_3":"boolean":{},
-          "Chair_4":"boolean":{}
-        },
-     "Table_6": {
-          "Chair_1":"boolean":{},
-          "Chair_2":"boolean":{},
-          "Chair_3":"boolean":{},
-          "Chair_4":"boolean":{},
-          "Chair_5":"boolean":{},
-          "Chair_6":"boolean":{}
-        },
-     "Table_7": {
-         "Chair_1":"boolean":{},
-          "Chair_2": "boolean":{},
-          "Chair_3":"boolean":{},
-          "Chair_4":"boolean":{}
-        },
-     "Table_8": {
-          "Chair_1":"boolean":{},
-          "Chair_2":"boolean":{},
-          "Chair_3":"boolean":{},
-          "Chair_4":"boolean":{}
-        },
-    "Table_9": {
-         "Chair_1":"boolean":{},
-          "Chair_2":"boolean":{},
-          "Chair_3":"boolean":{},
-          "Chair_4":"boolean":{},
-          "Chair_5":"boolean":{},
-          "Chair_6":"boolean":{}
+    "timeSlot": {
+      "time10": {
+        "table1": {
+          "chair1": {
+            "boolean": {}
+          }
         }
-      } 
+      }
     }
   },
-
 
   "Comment": {
     "_": {

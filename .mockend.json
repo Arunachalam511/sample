@@ -4,12 +4,7 @@
       "items": 10
     },
     
-    "title": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
-      }
-    },
+    
     "body": {
       "loremParagraphs": {
         "minLength": 10,

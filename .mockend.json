@@ -3,7 +3,7 @@
     "_": {
       "items": 10
     },
-    
+
     "title": {
       "loremWords": {
         "minLength": 5,
@@ -34,14 +34,40 @@
         "max": "2023-01-24T23:59:59Z"
       }
     },
-    "timeSlot":{
+    "timeSlot": {
       "int": {
         "min": 10,
         "max": 21
       }
+    },
+    "table1": {
+      "boolean": {}
+    },
+    "table2": {
+      "boolean": {}
+    },
+    "table3": {
+      "boolean": {}
+    },
+    "table4": {
+      "boolean": {}
+    },
+    "table5": {
+      "boolean": {}
+    },
+    "table6": {
+      "boolean": {}
+    },
+    "table7": {
+      "boolean": {}
+    },
+    "table8": {
+      "boolean": {}
+    },
+    "table9": {
+      "boolean": {}
     }
   },
-
 
   "Comment": {
     "_": {

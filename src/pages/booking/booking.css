@@ -1,0 +1,146 @@
+.bookDate {
+  height: 50px;
+  width: 200px;
+  text-align: center;
+}
+
+
+
+.Guests {
+  height: 50px;
+  width: 200px;
+  text-align: center;
+}
+
+.time-slot{
+    padding-left:20%;
+    padding-right: 20%;
+}
+
+.time-slot-cards {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid blue;
+  width: 74px;
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  margin-right: 10px;
+}
+
+.hotel-space{
+    padding-left:20%;
+    padding-right: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.res-table-area{
+  margin-top: 1%;
+  display: inline-grid;
+  grid-template-rows: 150px 150px 150px;
+  grid-template-columns: 150px 150px 150px;
+  grid-gap: 3rem;
+}
+
+
+.res-table-space {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 3em;
+}
+
+.res-table{
+
+  height: 70px; 
+  width: 70px;  
+  color: #CFA76E;
+}
+
+.res-chair{
+  height: 20px;
+  width: fit-content;
+ 
+}
+
+.res-chair+.res-chair {
+  margin-left:10px
+}
+
+.res-table-large{
+  height: 120px;
+  width: 90px;
+  color: #CFA76E;
+}
+
+
+.res-chair-large{
+  height: 20px;
+  width: fit-content;
+}
+
+.slot-radio {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+.slot-radio + .slot-radio {
+  margin-left: 70px;
+}
+
+.slot-radio input[type="radio"] {
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.slot-radio input[type="radio"]:checked ~ span:after {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.slot-radio span {
+  content: attr(data-name);
+  border-radius: 16px;
+  display: block;
+  line-height: 20px;
+  position: absolute;
+  left: 0;
+  color: #fff;
+  background-color: #495e57;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  width: 73px;
+  height: 73px;
+  margin-right: 10px;
+}
+
+.slot-radio span:after {
+  content: attr(data-name);
+  flex-wrap: wrap;
+  place-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 16px;
+  background-color: yellow;
+  display: inline-flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 75px;
+  height: 75px;
+  color: black;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.radio-group{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
